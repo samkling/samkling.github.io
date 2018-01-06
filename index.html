@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Itsa PhotoBooth</title>
+</head>
+<body>
+<header>
+<div>
+    <div id="logo" class="div-header">
+        <a class="banner" id="icon" href="index.html">
+          <h1 class="headerDiv">Itsa PhotoBooth</h1>
+        </a>
+    </div>
+
+    <!--<a href="http://cse.msu.edu/~klingsam/samisthenics">-->
+        <!--<p class="title">samISTHENICS</p>-->
+    <!--</a>-->
+    <div id="nav" class="div-header">
+        <nav>
+            <!-- <a href="http://cse.msu.edu/~klingsam/samisthenics">Home</a> -->
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+
+</div>
+</header>
+
+<div class="content">
+
+    <h1>Welcome to Itsa PhotoBooth!</h1>
+
+    <div class="openingPic">
+    	<img class="mySlides" src="headerpic.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="homePic.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="pic1.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="pic2.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="pic3.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="pic4.jpg" height="300px" width="300px" alt="carousel">
+        <img class="mySlides" src="pic6.png" height="300px" width="300px" alt="carousel">
+
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 2500); // Change image every 2 seconds
+            }
+        </script>
+
+    </div>
+
+
+    <p class="description">
+        Itsa PhotoBooth (Formerly Majestic Booth) offers PhotoBooth Rentals for your special occasions - Weddings, Birthday Parties, Graduations, Reunions, Work Parties, Proms/School events, and more. We have top quality photos available in color, black and white and sepia. Each photo strip has 4 poses and can be personalized for your event. Itsa PhotoBooth offers the same great service. Message us for a quote and with any questions you may have. We look forward to working with you at your special events.
+    </p>
+
+
+</div>
+
+<footer>
+    <div>
+        <p class="footer">&copy; 2018 Itsa PhotoBooth</p>
+    </div>
+</footer>
+
+</body>
+</html>
