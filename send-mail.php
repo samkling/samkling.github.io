@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
+<?php
 
-<p>Hello</p>
-
-</body>
-</html>
+echo "Hello"
