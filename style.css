@@ -1,0 +1,140 @@
+html, body, header, footer, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    font-family: "Arial", serif;
+}
+body{
+    margin-bottom: 1em;
+    background-color: aliceblue;
+    color: black;
+    height: 100%;
+}
+
+.content div {
+	padding: 1em 1em 1em 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+
+header {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /*height: 9em;*/
+}
+#logo {
+    margin-bottom: 1em;
+}
+.banner {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    width: 8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px solid pink;
+    border-radius: 25px;
+    padding: .5em;
+    background-color: darkslategrey;
+}
+
+p.title {
+    font-size: 1em;
+    vertical-align: middle;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+/*div.main {*/
+    /*margin-top: 10em;*/
+    /*align: center;*/
+    /*width: 50%;*/
+    /*text-align: center;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+/*}*/
+
+header a:link, header a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+header a:active, header a:hover {
+    color: white;
+    background-color: black;
+}
+
+.content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+.description {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5em;
+}
+.footer {
+    padding-top: .5em;
+    text-align: center;
+}
+
+#welcomeImage {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+.item {
+    /*padding-bottom: 1em;*/
+    text-align: left;
+    padding: 1em;
+}
+.pix {
+    text-align: center;
+    padding: 1em;
+}
+.video {
+    padding: 1em;
+}
+
+.contact p {
+    padding: 1em;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.openingPic {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
